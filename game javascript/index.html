@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="submit-to-google-sheet">
+        <label >Name</label><br>
+        <input type="text" name="name" required ><br><br>
+        <label >Email</label><br>
+        <input type="text" name="email" required><br><br>
+        <label >Gender</label><br>
+        <input type="radio" name="gender" value="Male" > <label >Male</label>
+        <input type="radio" name="gender" value="female" > <label >femail</label><br><br>
+        <label >message</label><br>
+     <textarea name="message" cols="20" required></textarea><br><br>
+     <input type="submit"  id="submit"name="submit">
+
+     <span id="success"></span>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
